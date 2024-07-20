@@ -3,7 +3,7 @@ import { Server } from "socket.io";
 const io = new Server({
   cors: {
     // origin: "http://localhost:5173",
-    origin: "https://nest-finder-six.vercel.app/",
+    origin: "https://nest-finder-six.vercel.app",
   },
 });
 
