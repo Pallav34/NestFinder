@@ -21,6 +21,10 @@ app.use("/api/test", testRoute);
 app.use("/api/chats", chatRoute);
 app.use("/api/messages", messageRoute);
 
+app.get('/', (req, res) => {
+  res.send('hello world')
+})
+
 app.listen(8800, () => {
   console.log("Server is running!");
 });
